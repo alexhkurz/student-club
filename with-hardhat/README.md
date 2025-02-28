@@ -95,13 +95,12 @@ For a beginner-friendly Ethereum project, the goal is to provide your students w
 - Write unit tests for smart contracts using **Mocha** and **Chai** (built into Hardhat and Truffle).
 - Use the **Hardhat Console** or **Truffle Console** to interact with your contracts during development.
 
-### **7. FirstProject Ideas**
-Here are some first project ideas:
-1. **"Hello World" Smart Contract**: A simple contract that stores and retrieves a string.
-2. **Voting System**: A contract that allows users to vote on proposals.
-3. **Simple Token (ERC-20)**: Teach students the basics of tokens and ERC standards.
-4. **Crowdfunding DApp**: A decentralized application where users can contribute Ether to fund a project.
-5. **Todo List DApp**: A simple app to add and manage tasks on the blockchain.
+### **7. First Project Ideas**
+- **"Hello World" Smart Contract**: A simple contract that stores and retrieves a string.
+- **Voting System**: A contract that allows users to vote on proposals.
+- **Simple Token (ERC-20)**: Teach students the basics of tokens and ERC standards.
+- **Crowdfunding DApp**: A decentralized application where users can contribute Ether to fund a project.
+- **Todo List DApp**: A simple app to add and manage tasks on the blockchain.
 
 ### **8. Resources**
 - [Solidity Documentation](https://docs.soliditylang.org/)
