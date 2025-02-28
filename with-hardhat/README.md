@@ -58,7 +58,6 @@ For a beginner-friendly Ethereum project, the goal is to provide your students w
 - Install **Node.js** (LTS version). This is required for running JavaScript-based tools and frameworks like Truffle, Hardhat, and front-end libraries.
 
 ### **2. Ethereum Development Tools**
-#### **a. Hardhat**
 - Hardhat is a popular Ethereum development framework. It allows students to compile, deploy, test, and debug smart contracts.
   - Install Hardhat globally:  
     ```bash
