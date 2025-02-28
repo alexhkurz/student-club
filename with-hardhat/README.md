@@ -48,8 +48,6 @@ Here is some initial planning as suggested by an LLM. This needs more work.
 
 For a beginner-friendly Ethereum project, the goal is to provide your students with a straightforward and well-supported environment to learn the basics of blockchain development. Here's a recommended setup:
 
----
-
 ### **1. Development Environment**
 #### **a. Code Editor**
 - **Visual Studio Code (VS Code)**: It's free, lightweight, and has excellent extensions for Ethereum development.
@@ -74,46 +72,19 @@ For a beginner-friendly Ethereum project, the goal is to provide your students w
     - Built-in local Ethereum network for testing.
     - Easy integration with testing libraries like Mocha and Chai.
 
-#### **b. Truffle Suite (Alternative)**
-- Truffle is another beginner-friendly framework for Ethereum development. It provides similar functionality to Hardhat.
-  - Install Truffle globally:  
-    ```bash
-    npm install -g truffle
-    ```
-  - Create a new Truffle project:  
-    ```bash
-    truffle init
-    ```
-  - Truffle comes with Ganache, a local blockchain emulator for testing.
-
-### **3. Local Blockchain**
-#### **a. Ganache**
-- Ganache is a personal Ethereum blockchain for testing smart contracts. It comes with a user interface to visualize transactions.
-  - Install Ganache:  
-    ```bash
-    npm install -g ganache
-    ```
-  - Start Ganache:  
-    ```bash
-    ganache
-    ```
-
-#### **b. Hardhat Network (Alternative)**
-- If you’re using Hardhat, it includes its own local blockchain, so you don't need Ganache.
-
-### **4. Wallet**
+### **3. Wallet**
 - **MetaMask**: A browser-based Ethereum wallet that allows students to interact with their smart contracts.
   - Install the browser extension for Chrome/Firefox.
   - Connect MetaMask to the local blockchain (e.g., Ganache or Hardhat Network).
 
-### **5. Smart Contract Language**
+### **4. Smart Contract Language**
 - **Solidity**: The most widely-used language for Ethereum smart contracts.
   - Start with simple contracts like:
     - A "Hello World" contract.
     - A basic token (e.g., an ERC-20 token).
     - A voting system.
 
-### **6. Front-End Integration**
+### **5. Front-End Integration**
 - Use **React.js** for the front-end, as it integrates well with Ethereum libraries.
   - Install React via Create React App:  
     ```bash
@@ -121,19 +92,19 @@ For a beginner-friendly Ethereum project, the goal is to provide your students w
     ```
   - Use **ethers.js** or **web3.js** to connect the front end to Ethereum smart contracts.
 
-### **7. Testing and Debugging**
+### **6. Testing and Debugging**
 - Write unit tests for smart contracts using **Mocha** and **Chai** (built into Hardhat and Truffle).
 - Use the **Hardhat Console** or **Truffle Console** to interact with your contracts during development.
 
-### **8. Project Ideas for Beginners**
-Here are some beginner-friendly project ideas:
+### **7. FirstProject Ideas**
+Here are some first project ideas:
 1. **"Hello World" Smart Contract**: A simple contract that stores and retrieves a string.
 2. **Voting System**: A contract that allows users to vote on proposals.
 3. **Simple Token (ERC-20)**: Teach students the basics of tokens and ERC standards.
 4. **Crowdfunding DApp**: A decentralized application where users can contribute Ether to fund a project.
 5. **Todo List DApp**: A simple app to add and manage tasks on the blockchain.
 
-### **9. Resources**
+### **8. Resources**
 - [Solidity Documentation](https://docs.soliditylang.org/)
 - [Hardhat Documentation](https://hardhat.org/)
 - [Truffle Documentation](https://trufflesuite.com/)
